@@ -1,3 +1,228 @@
-nav {
+/* General Styles */
+
+/* Set default font family and size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Set link styles */
+  a {
+    text-decoration: none;
+    color: #0077cc;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Set container max width and center it */
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  /* Header Styles */
+  
+  /* Set header background color and padding */
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  /* Set nav list styles */
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Set nav list item styles */
+  nav li {
+    margin-right: 20px;
+  }
+  
+  /* Set nav link styles */
+  nav a {
+    font-weight: bold;
+  }
+  
+  /* Hero Styles */
+  
+  /* Set hero section margin and text alignment */
+  .hero {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* Set hero heading styles */
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  /* Set hero paragraph styles */
+  .hero p {
+    font-size: 24px;
+  }
+  
+  /* Main Content Styles */
+  
+  /* Set main content padding and margin */
+  main {
+    padding: 40px;
+    margin-bottom: 40px;
+  }
+  
+  /* Set section margin */
+  section {
+    margin-bottom: 40px;
+  }
+  
+  /* Set section heading styles */
+  section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  /* Set project styles */
+  .project {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Set project image styles */
+  .project img {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  /* Set project heading styles */
+  .project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Set project paragraph styles */
+  .project p {
+    margin-bottom: 10px;
+  }
+  
+  /* Set project link styles */
+  .project a {
+    background-color: #0077cc;
+    color: #fff;
     display: inline-block;
-}
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+  /* Form Styles */
+  
+  /* Set form input label styles */
+  section form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Set form input styles */
+  section form input[type="text"],
+  section form input[type="email"],
+  section form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Set form textarea styles */
+  section form textarea {
+    height: 150px;
+  }
+  
+  /* Set form submit button styles */
+  section form button[type="submit"] {
+    background-color: #0077cc;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  /* Footer Styles */
+  
+  /* Set footer background color, text color, and padding */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Set media query for smaller screens */
+  @media screen and (max-width: 600px) {
+    nav ul {
+      flex-direction: column;
+    }
+  }
+
+    /* Set nav list styles for smaller screens */
+    nav ul {
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    /* Set nav list item styles for smaller screens */
+    nav li {
+    margin: 10px 0;
+    }
+    
+    /* Set hero heading font size for smaller screens */
+    .hero h1 {
+    font-size: 36px;
+    }
+    
+    /* Set hero paragraph font size for smaller screens */
+    .hero p {
+    font-size: 18px;
+    }
+    
+    /* Set project heading font size for smaller screens */
+    .project h3 {
+    font-size: 18px;
+    }
+    
+    /* Set project paragraph font size for smaller screens */
+    .project p {
+    font-size: 14px;
+    }
+    
+    /* Set form input styles for smaller screens */
+    section form input[type="text"],
+    section form input[type="email"],
+    section form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    }
+    
+    /* Set form textarea height for smaller screens */
+    section form textarea {
+    height: 100px;
+    }
+    
+    /* Set form submit button font size for smaller screens */
+    section form button[type="submit"] {
+    font-size: 14px;
+    }
+
