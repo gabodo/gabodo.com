@@ -1,26 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel=stylesheet href=css/styles.css>
-    <title>Document</title>
-</head>
-<body>
-    <div>
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>About me</li>
-                <li>Portfolio</li>
-                <li>Contact me</li>
-            </ul>
-        </nav>
-        <main></main>
-          <h1>IT world made easy</h1>
-          <h2>Welcome to my website</h2>
-        </main>
-    </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Your website description goes here." />
+    <meta name="keywords" content="Your website keywords go here." />
+    <title>Gustavo Bohorquez - Web Developer</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="hero">
+        <h1>Gustavo Bohorquez</h1>
+        <p>Web Developer Portfolio</p>
+      </div>
+    </header>
+    <main>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>Your bio goes here.</p>
+      </section>
+      <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+          <img src="project-image.jpg" alt="Project Name" />
+          <h3>Project Name</h3>
+          <p>Project description goes here.</p>
+          <a href="#">View Project</a>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Your Name</p>
+    </footer>
+  </body>
 </html>
