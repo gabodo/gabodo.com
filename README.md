@@ -29,6 +29,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-If you have any questions or just want to say hi, you can reach me at [gabohorquezd87@gmail.com](mailto:gabohorquezd87@gmail.com).
+If you have any questions or just want to say hi, you can reach me at [gustavobohorquez@gmail.com](mailto:gustavobohorquezd@gmail.com).
 
 Happy coding! 🚀
